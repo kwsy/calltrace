@@ -1,4 +1,4 @@
-# 1. calltrace
+# 1. pycalltrace
 record and trace the function call chain
 
 # 2. why develop it
@@ -13,13 +13,13 @@ Some of the calls take place in third-party packages. You can use filter_ Func f
 
 # 3. how to install
 ```shell script
-pip install calltrace
+pip install pycalltrace
 ```
 
 # 4. example
 
 ```python
-from calltrace import CallTrace
+from pycalltrace import CallTrace
 
 def func1():
     print('ok')
