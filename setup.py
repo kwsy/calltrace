@@ -3,7 +3,7 @@ from setuptools import setup
 
 setup(
     name='pycalltrace',
-    version='0.1',
+    version='0.2',
     url='https://github.com/kwsy/calltrace',
     license='BSD',
     author='dongsheng zhang',
