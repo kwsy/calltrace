@@ -48,3 +48,15 @@ with CallTrace(filter_func=lambda x: x.find('calc') == -1):
 # call_trace.stop()
 # call_trace.output()
 ```
+
+输出结果
+```
+ok
+func4                                    # D:/pysrc/calltrace/test.py, 12, D:/pysrc/calltrace/test.py, 22
+--func3                                  # D:/pysrc/calltrace/test.py, 9, D:/pysrc/calltrace/test.py, 13
+----func2                                # D:/pysrc/calltrace/test.py, 6, D:/pysrc/calltrace/test.py, 10
+------func1                              # D:/pysrc/calltrace/test.py, 3, D:/pysrc/calltrace/test.py, 7
+```
+
+即便借助编辑器的代码追踪功能，想要摸清楚一个函数执行过程中调用过哪些模块，执行过哪些函数，也是一件困难的事情，使用pycalltrace，
+可以帮你快速理清调用过程
