@@ -1,4 +1,4 @@
-from calltrace import CallTrace
+from pycalltrace import CallTrace
 
 def func1():
     print('ok')
